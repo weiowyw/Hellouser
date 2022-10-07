@@ -25,65 +25,65 @@
 
 
 //1.
-// let a = prompt('Enter first number');
-// let b = prompt('Enter second number');
-// if (a > b){
-//     console.log('A has higher value');
+// let number1 = prompt('Enter first number');
+// let number2 = prompt('Enter second number');
+// if (number1 > number2){
+//     console.log('First number has higher value');
 // }else {
-//     console.log('B has higher value');
+//     console.log('Second number has higher value');
 // }
 
 //2.
-// let a = prompt('Enter first number');
-// let b = prompt('Enter second number');
-// if ((a*0.305)>b){
-//     console.log('A is bigger');
+// let number1 = prompt('Enter the distance in meters');
+// let number2 = prompt('Enter the distance in feet');
+// if ((number1*0.305)>number2){
+//     console.log('M distance is bigger');
 // }else{
-//     console.log('B is bigger');
+//     console.log('Ft distance is bigger');
 // }
 
 //3.
-// let a = prompt('Enter first number');
-// let b = prompt('Enter second number');
-// if (a % b === 0){
-//     console.log('A is a divider of B');
-// }else if (b % a === 0){
-//     console.log('B is a divider of A');
+// let number1 = prompt('Enter first number');
+// let number2 = prompt('Enter second number');
+// if (number1 % number2 === 0){
+//     console.log('First number is a divider of the second one');
+// }else if (number2 % number1 === 0){
+//     console.log('Second number is a divider of the first one');
 // }else{
 //     console.log("You can't divide these two numbers");
 // }
 
 //4.
-// let a = prompt('Enter your number');
-// let b = a % 10;
-// if(b % 2 === 0){
-//     console.log('The digit is even');
-//     console.log("And the digit is ", b);
+// let number = prompt('Enter your number');
+// let lastDigit = number % 10;
+// if(lastDigit % 2 === 0){
+//     console.log('The last digit is even');
+//     console.log("And the digit is ", lastDigit);
 // } else{
-//     console.log('The digit is odd');
-//     console.log("And the digit is ", b);
+//     console.log('The last digit is odd');
+//     console.log("And the digit is ", lastDigit);
 // }
 
 //5.
-// let a = prompt('Enter a 2-digit number');
-// let b = a % 10;
-// let c = a / 10;
-// c = parseInt(c);
-// if (b > c){
+// let number = prompt('Enter a 2-digit number');
+// let digit1 = number / 10;
+// digit1 = parseInt(digit1);
+// let digit2 = number % 10;
+// if (digit2 > digit1){
 //     console.log('Second digit has higher value than first');
 // }else{
 //     console.log('First digit has higher value than second');
 // }
 
-//6.
-// let a = prompt('Enter a 3-digit number');
-// let b = a / 100;
-// b = parseInt(b);
-// let c = (a / 10) % 10;
-// c = parseInt(c);
-// let d = a % 10;
-// let sum = b + c + d;
-// let product = b * c * d;
+// 6.
+// let number = prompt('Enter a 3-digit number');
+// let digit1 = number / 100;
+// digit1 = parseInt(digit1);
+// let digit2 = (number / 10) % 10;
+// digit2 = parseInt(digit2);
+// let digit3 = number % 10;
+// let sum = digit1 + digit2 + digit3;
+// let product = digit1 * digit2 * digit3;
 // if(sum % 2 === 0){
 //     console.log('The sum of these digits is even');
 // }else{
@@ -101,38 +101,38 @@
 // }
 
 //7.
-// let a = prompt('Enter a 3-digit number');
-// let b = a / 100;
-// b = parseInt(b);
-// let c = (a / 10) % 10;
-// c = parseInt(c);
-// let d = a % 10;
-// console.log(b, c, d);
-// if(b===c && b===d){
+// let number = prompt('Enter a 3-digit number');
+// let digit1 = number / 100;
+// digit1 = parseInt(digit1);
+// let digit2 = (number / 10) % 10;
+// digit2 = parseInt(digit2);
+// let digit3 = number % 10;
+// console.log(digit1, digit2, digit3);
+// if(digit1===digit2 && digit1===digit3){
 //     console.log('Every digit is equal')
-// }else if(b===c || b===d || c===d){
+// }else if(digit1===digit2 || digit1===digit3 || digit2===digit3){
 //     console.log('Some of these 3 digits are equal');
 // }else{
 //     console.log('None of these digits are equal')
 // }
 
 //8.
-let a = prompt('Enter a 6-digit number');
-let b = a / 100000;
-b = parseInt(b);
-let c = (a / 10000) % 10;
-c = parseInt(c);
-let d = (a / 1000) % 10;
-d = parseInt(d);
-let e = (a / 100) % 10;
-e = parseInt(e);
-let f = (a / 10) % 10;
-f = parseInt(f);
-let g = a % 10;
-g = parseInt(g);
-console.log(b, c, d, e, f, g);
-if(b===g && c===f && d===e){
-    console.log('The number is mirrored');
-}else{
-    console.log('The number is not mirrored');
-}
+// let number = prompt('Enter a 6-digit number');
+// let digit1 = number / 100000;
+// digit1 = parseInt(digit1);
+// let digit2 = (number / 10000) % 10;
+// digit2 = parseInt(digit2);
+// let digit3 = (number / 1000) % 10;
+// digit3 = parseInt(digit3);
+// let digit4 = (number / 100) % 10;
+// digit4 = parseInt(digit4);
+// let digit5 = (number / 10) % 10;
+// digit5 = parseInt(digit5);
+// let digit6 = number % 10;
+// digit6 = parseInt(digit6);
+// console.log(digit1, digit2, digit3, digit4, digit5, digit6);
+// if(digit1===digit6 && digit2===digit5 && digit3===digit4){
+//     console.log('The number is mirrored');
+// }else{
+//     console.log('The number is not mirrored');
+// }
